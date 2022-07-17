@@ -109,20 +109,10 @@ int main()
     cout << "Inorder traversal of the given tree \n";
     inorder(root);
  
-    cout << "\nDelete 20\n";
-    root = deleteNode(root, 20);
+    cout << "\nDelete 102\n";
+    root = deleteNode(root, 102);
     cout << "Inorder traversal of the modified tree \n";
     inorder(root);
- 
-    cout << "\nDelete 30\n";
-    root = deleteNode(root, 30);
-    cout << "Inorder traversal of the modified tree \n";
-    inorder(root);
- 
-    cout << "\nDelete 50\n";
-    root = deleteNode(root, 50);
-    cout << "Inorder traversal of the modified tree \n";
-    inorder(root);
- 
+
     return 0;
 }
